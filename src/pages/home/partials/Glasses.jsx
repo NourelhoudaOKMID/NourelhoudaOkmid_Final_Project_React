@@ -6,7 +6,7 @@ export const Glasses = () => {
         <div className="w-full bg-gray-100 py-16 flex justify-center">
   <div className="flex gap-10">
 
-    <div className="relative w-[600px] h-[400px] overflow-hidden group">
+    <div className="relative w-150 h-100 overflow-hidden group">
       <img
         src={Images.marron}
         alt=""
@@ -20,14 +20,14 @@ export const Glasses = () => {
       </div>
     </div>
 
-    <div className=" relative w-[600px] h-[400px] overflow-hidden group   flex flex-col items-center justify-center">
+    <div className=" relative w-150 h-100 overflow-hidden group   flex flex-col items-center justify-center">
       <img
         src={Images.men4}
         alt=""
-        className="w-[600px] h-[ 400px] object-cover transition duration-500 group-hover:scale-110  "
+        className="w-150  h-[ 400px] object-cover transition duration-500 group-hover:scale-110  "
       />
-<div className="absolute inset-0  flex flex-col items-center pt-50 text-white text-center">
-<h2 className="text-gray-700  text-lg mt-6">
+      <div className="absolute inset-0  flex flex-col items-center pt-50 text-white text-center">
+    <h2 className="text-gray-700  text-lg mt-6">
         Boxy2 T-Shirt with Roll Sleeve
       </h2>
       <p className="mt-2 text-gray-600">Â¥3,123</p>
@@ -46,12 +46,12 @@ export const Glasses = () => {
 
         <div className="border border-black px-4 py-2 text-center">
           <span className="block text-black text-lg font-medium">-15</span>
-          <span className="block text-black text-sm text-gray-500">mins</span>
+          <span className="block  text-sm text-gray-500">mins</span>
         </div>
 
         <div className="border border-black px-4 py-2 text-center">
           <span className="block text-black text-lg font-medium">-45</span>
-          <span className="block text-black text-sm text-gray-500">secs</span>
+          <span className="block  text-sm text-gray-500">secs</span>
         </div>
 
       </div>
