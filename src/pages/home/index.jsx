@@ -10,6 +10,7 @@ export const Home = () => {
         
                 
                 <HeroCarousel/>
+                
 
                 <Glasses/>
                 
