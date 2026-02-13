@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+
+:root {
+    --gris-bg: #f0f0f0;       
+    --rouge-hover: #e65540;   
+    --paragraph-color: #555555; 
+}
