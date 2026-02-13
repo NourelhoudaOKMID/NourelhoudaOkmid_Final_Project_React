@@ -1,11 +1,14 @@
 import Herocomponent from '../../components/Herocomponent';
+import { Images } from '../../constant/img';
 
 const Blog = () => {
     return (
-        <>
+        <>  
 
 
-        <Herocomponent title= " News"/>
+
+        
+        <Herocomponent background={Images.p1} title= " News"/>
         
         </>
     );
