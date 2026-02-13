@@ -27,7 +27,7 @@ import { Images } from '../../../constant/img';
     }, []);
 
     return (
-        <div className="relative w-full h-56 md:h-96 overflow-hidden rounded-lg z-10 mt-20">
+        <div className="relative w-full h-56 md:h-96 overflow-hidden rounded-lg z-10 mt-0.5">
             {slides.map((slide, index) => (
                 <div
                     key={index}

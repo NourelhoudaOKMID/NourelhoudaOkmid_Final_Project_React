@@ -4,7 +4,7 @@ import Herocomponent from "../../components/Herocomponent";
 import { Images } from "../../constant/img";
 
 
-export const   About=()=> {
+export const   About = ()=> {
   return (
 
     <>
