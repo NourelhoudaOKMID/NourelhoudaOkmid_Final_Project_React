@@ -4,6 +4,7 @@ export const Ourblog = () => {
   return (
     <>
       <section className=" w-full py-9">
+        <h2 className="text-center text-3xl font-bold py-6">OUR BLOG</h2>
         <div className="grid  grid-cols-3 px-35 gap-3   ">
           {/* first */}
           <div className="flex     flex-col justify-between gap-3  overflow-hidden  rounded-lg ">
