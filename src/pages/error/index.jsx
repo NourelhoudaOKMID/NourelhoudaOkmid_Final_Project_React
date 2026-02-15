@@ -17,7 +17,7 @@ export const Error = () => {
         Go Back Home
     </Link>
     </div>
-            
+    
         </>
     );
 };
