@@ -79,7 +79,7 @@ return (
                 }}
                 className="w-full  sm:w-auto max-w-md border-b-2 border-gray-300 rounded px-3 py-3 focus:outline-none focus:border-orange-900 "
                     />
-                <button onClick={conditionSubscribe} className="bg-black hover:bg-orange-950 text-white rounded-2xl w-40  py-1.5  transition-colors">
+                <button onClick={conditionSubscribe} className="bg-black hover:bg-orange-950 text-white rounded-2xl w-30  py-1.5  transition-colors">
                 SUBSCRIBE
                 </button>
             </div>
