@@ -8,9 +8,9 @@ import { Images } from '../../../constant/img';
 
 
     const slides = [
-        { image: Images.hoodie, alt: 'Slide 1' },
-        { image: Images.men4, alt: 'Slide 2' },
-        { image: Images.p1, alt: 'Slide 3' },
+        { image: Images.carousel1, alt: 'Slide 1' },
+        { image: Images.carousel4, alt: 'Slide 2' },
+        { image: Images.carousel1, alt: 'Slide 3' },
     ];
 
     const nextSlide = () => {
@@ -27,7 +27,7 @@ import { Images } from '../../../constant/img';
     }, []);
 
     return (
-        <div className="relative w-full h-56 md:h-96 overflow-hidden rounded-lg z-10 mt-0.5">
+        <div className="relative w-full h-[80vh]  overflow-hidden rounded z-10 mt-0.5">
             {slides.map((slide, index) => (
                 <div
                     key={index}
@@ -90,4 +90,3 @@ import { Images } from '../../../constant/img';
         </div>
     );
 };
- 

@@ -1,6 +1,6 @@
 const Herocomponent = ({ background, title }) => {
   return (
-    <section className="relative w-full min-h-[50vh] flex items-center justify-center">
+    <section className="relative w-full min-h-[60vh] flex items-center justify-center">
       
       <img
         src={background}

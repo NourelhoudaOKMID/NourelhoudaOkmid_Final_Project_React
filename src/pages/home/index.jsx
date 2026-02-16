@@ -1,6 +1,8 @@
 import { Followussection } from "./partials";
 import { HeroCarousel } from "./partials/carousel";
-import { Glasses } from "./partials/glasses";
+import { Collection } from "./partials/collection";
+import { Ourblog } from "./partials/Ourblog";
+import { Productsection } from "./partials/productsection";
 
 export const Home = () => {
     return (
@@ -11,36 +13,11 @@ export const Home = () => {
                 
                 <HeroCarousel/>
                 
+                <Productsection/>
 
-                <Glasses/>
+                <Collection/>
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                <Ourblog/>
                 
                 
                 <Followussection/>

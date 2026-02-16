@@ -15,6 +15,11 @@ import watch from "../../../src/assets/images/watch1.jpg";
 import footwear from "../../../src/assets/images/footwear.jpg";
 import bag from "../../../src/assets/images/bag.jpg";
 import accessories from "../../../src/assets/images/accessories1.jpg";
+import carousel1 from "../../../src/assets/images/carouselhoodies.jpg";
+import carousel2 from "../../../src/assets/images/hoodiescarousel.jpg";
+import carousel3 from "../../../src/assets/images/carousel3.jpg";
+import carousel4 from "../../../src/assets/images/hoodiescarousel4.jpg";
+
 
 export const Images =  {
     collection,
@@ -34,4 +39,8 @@ export const Images =  {
     footwear,
     bag,
     accessories,
+    carousel1,
+    carousel2,
+    carousel3,
+    carousel4,
 };
